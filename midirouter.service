@@ -1,0 +1,8 @@
+[Unit]
+Description=MIDI router
+
+[Service]
+ExecStart=/usr/local/midirouter/connect.sh
+
+[Install]
+WantedBy=multi-user.target
