@@ -1,0 +1,8 @@
+[Unit]
+Description=ALSA MIDI Connector
+
+[Service]
+ExecStart=/usr/local/midirouter/connect-puredata.sh
+
+[Install]
+WantedBy=multi-user.target

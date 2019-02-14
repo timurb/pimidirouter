@@ -2,7 +2,7 @@
 Description=MIDI router
 
 [Service]
-ExecStart=/usr/local/midirouter/connect.sh
+ExecStart=/usr/local/midirouter/puredata.sh
 
 [Install]
 WantedBy=multi-user.target
